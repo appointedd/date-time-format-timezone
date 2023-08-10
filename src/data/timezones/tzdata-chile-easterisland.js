@@ -114,7 +114,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "1g6iatf",
         "1gj8g5v",
         "1h4i3df",
-        "1hh88lv",
+        "1hhqn9v",
         "1i2hrtf",
         "1if815v",
         "1j1431f",

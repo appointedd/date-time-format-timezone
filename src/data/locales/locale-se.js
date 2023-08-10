@@ -10,33 +10,33 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
             "gmtZeroFormat": "UTC",
             "zone": {},
             "metazone": {
-                "Europe_Central": "5,1,2,0,3|5,1,2,0,4|b|9",
-                "Europe_Eastern": "8,1,2,0,3|8,1,2,0,4|i|a",
-                "Europe_Western": "6,1,2,0,3|6,1,2,0,4|c|d",
-                "GMT": "e,0,f,0,g||h|",
-                "Moscow": "7,1,3|7,1,4||"
+                "Europe_Central": "5,0,2,1,3|5,0,2,1,4|9|a",
+                "Europe_Eastern": "6,0,2,1,3|6,0,2,1,4|b|c",
+                "Europe_Western": "7,0,2,1,3|7,0,2,1,4|d|e",
+                "GMT": "f,1,g,1,h||i|",
+                "Moscow": "8,0,3|8,0,4||"
             }
         }
     },
     "zoneNameIndex": [
-        " ",
         "-",
+        " ",
         "Eurohpá",
         "dábálašáigi",
         "geassiáigi",
         "gaska",
+        "nuorti",
         "oarje",
         "Moskva",
-        "nuorti",
-        "CEST",
-        "EEST",
         "CET",
+        "CEST",
+        "EET",
+        "EEST",
         "WET",
         "WEST",
         "Greenwich",
         "gaskka",
         "áigi",
-        "GMT",
-        "EET"
+        "GMT"
     ]
 });};

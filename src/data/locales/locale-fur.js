@@ -10,11 +10,11 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
             "gmtZeroFormat": "GMT",
             "zone": {},
             "metazone": {
-                "Europe_Central": "1,0,4,0,2,0,3,0,9|1,0,5,0,2,0,3,0,9|h|d",
-                "Europe_Eastern": "1,0,4,0,2,0,3,0,a|1,0,5,0,2,0,3,0,a|b|c",
-                "Europe_Western": "1,0,4,0,2,0,3,0,8|1,0,5,0,2,0,3,0,8|e|f",
-                "GMT": "||g|",
-                "Moscow": "1,0,4,0,7,0,6|1,0,5,0,7,0,6||"
+                "Europe_Central": "1,0,4,0,2,0,3,0,6|1,0,5,0,2,0,3,0,6|b|c",
+                "Europe_Eastern": "1,0,4,0,2,0,3,0,7|1,0,5,0,2,0,3,0,7|d|e",
+                "Europe_Western": "1,0,4,0,2,0,3,0,8|1,0,5,0,2,0,3,0,8|f|g",
+                "GMT": "||h|",
+                "Moscow": "1,0,4,0,9,0,a|1,0,5,0,9,0,a||"
             }
         }
     },
@@ -25,17 +25,17 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
         "Europe",
         "standard",
         "estive",
-        "Mosche",
-        "di",
-        "ocidentâl",
         "centrâl",
         "orientâl",
+        "ocidentâl",
+        "di",
+        "Mosche",
+        "CET",
+        "CEST",
         "EET",
         "EEST",
-        "CEST",
         "WET",
         "WEST",
-        "GMT",
-        "CET"
+        "GMT"
     ]
 });};

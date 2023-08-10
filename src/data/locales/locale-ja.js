@@ -13,7 +13,7 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
                 "Europe/London": "|7n||"
             },
             "metazone": {
-                "Acre": "1|3s||",
+                "Acre": "0|1||",
                 "Afghanistan": "2|||",
                 "Africa_Central": "3|||",
                 "Africa_Eastern": "4|||",
@@ -90,7 +90,7 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
                 "Indonesia_Central": "3o|||",
                 "Indonesia_Eastern": "3p|||",
                 "Indonesia_Western": "3q|||",
-                "Iran": "3r|0||",
+                "Iran": "3r|3s||",
                 "Irkutsk": "3t|3u||",
                 "Israel": "3v|40||",
                 "Japan": "41|42|43|44",
@@ -175,8 +175,8 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
         }
     },
     "zoneNameIndex": [
-        "イラン夏時間",
         "アクレ標準時",
+        "アクレ夏時間",
         "アフガニスタン時間",
         "中央アフリカ時間",
         "東アフリカ時間",
@@ -299,7 +299,7 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
         "インドネシア東部時間",
         "インドネシア西部時間",
         "イラン標準時",
-        "アクレ夏時間",
+        "イラン夏時間",
         "イルクーツク標準時",
         "イルクーツク夏時間",
         "イスラエル標準時",

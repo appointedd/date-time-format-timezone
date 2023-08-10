@@ -55,7 +55,7 @@ describe('Polyfill packaged with specific timezone data', () => {
 						timeZone: 'Antarctica/DumontDUrville'
 					}).format(date);
 
-					assert.equal('06/12/2016 à 00:05 heure de Dumont-d’Urville', losAngelesTime);
+					assert.equal('06/12/2016 00:05 heure de Dumont-d’Urville', losAngelesTime);
 				});
 			}
 

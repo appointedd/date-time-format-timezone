@@ -5,7 +5,7 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Asia/Muscat,Asia/Dubai||0,0,0,1,1,0"
+        "Asia/Muscat,Indian/Mahe,Indian/Reunion,Asia/Dubai||0,0,0,1,1,0"
     ],
     "timeStamps": [
         "-1f0qpip",

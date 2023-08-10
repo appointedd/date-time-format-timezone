@@ -5,14 +5,14 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Antarctica/Syowa||0,0,0,1,1,0"
+        "Asia/Aden,Asia/Kuwait,Asia/Riyadh,Antarctica/Syowa||0,0,0,1,1,0"
     ],
     "timeStamps": [
-        "-c4ta01",
+        "-le9iad",
         "1vvvvvv"
     ],
     "offsets": [
-        0,
+        186,
         180
     ]
 });};

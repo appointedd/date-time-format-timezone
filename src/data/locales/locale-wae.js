@@ -11,9 +11,9 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
             "zone": {},
             "metazone": {
                 "Atlantic": "3,0,1|3,0,2||",
-                "Europe_Central": "4,0,1|4,0,2|7|c",
-                "Europe_Eastern": "5,0,1|5,0,2|8|9",
-                "Europe_Western": "6,0,1|6,0,2|b|a"
+                "Europe_Central": "4,0,1|4,0,2|7|8",
+                "Europe_Eastern": "5,0,1|5,0,2|9|a",
+                "Europe_Western": "6,0,1|6,0,2|b|c"
             }
         }
     },
@@ -26,10 +26,10 @@ module.exports = function load(global) {global.Intl && global.Intl._localeData &
         "Ošteuropäiši",
         "Wešteuropäiši",
         "MEZ",
+        "MESZ",
         "OEZ",
         "OESZ",
-        "WESZ",
         "WEZ",
-        "MESZ"
+        "WESZ"
     ]
 });};

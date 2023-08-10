@@ -5,7 +5,7 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Indian/Christmas,Etc/GMT-7||0,0,0"
+        "Etc/GMT-7||0,0,0"
     ],
     "timeStamps": [
         "1vvvvvv"

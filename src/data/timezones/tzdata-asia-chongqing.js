@@ -5,9 +5,11 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Asia/Chungking,Asia/Harbin,Asia/Shanghai,PRC,Asia/Chongqing||0,0,0,1,1,1,2,0,0,3,1,1,4,0,0,5,1,1,6,0,0,7,1,1,8,0,0,9,1,1,a,0,0,b,1,1,c,0,0,d,1,1,e,0,0,f,1,1,g,0,0,h,1,1,i,0,0,j,1,1,k,0,0,l,1,1,m,0,0,n,1,1,o,0,0,p,1,1,q,0,0"
+        "Asia/Chungking,Asia/Harbin,Asia/Shanghai,PRC,Asia/Chongqing||0,0,0,1,1,1,2,0,0,3,1,1,4,0,0,5,1,1,6,0,0,7,1,1,8,0,0,9,1,1,a,0,0,b,1,1,c,0,0,d,1,1,e,0,0,f,1,1,g,0,0,h,1,1,i,0,0,j,1,1,k,0,0,l,1,1,m,0,0,n,1,1,o,0,0,p,1,1,q,0,0,r,1,1,s,0,0"
     ],
     "timeStamps": [
+        "-1fmgnc1",
+        "-1f8duoh",
         "-rqd8c1",
         "-rfc1kh",
         "-r2ogo1",

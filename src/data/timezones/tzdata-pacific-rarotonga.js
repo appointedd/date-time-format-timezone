@@ -5,9 +5,10 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Pacific/Rarotonga||0,0,0,1,1,1,2,2,0,3,1,1,4,2,0,5,1,1,6,2,0,7,1,1,8,2,0,9,1,1,a,2,0,b,1,1,c,2,0,d,1,1,e,2,0,f,1,1,g,2,0,h,1,1,i,2,0,j,1,1,k,2,0,l,1,1,m,2,0,n,1,1,o,2,0,p,1,1,q,2,0"
+        "Pacific/Rarotonga||0,0,0,1,1,0,2,2,1,3,3,0,4,2,1,5,3,0,6,2,1,7,3,0,8,2,1,9,3,0,a,2,1,b,3,0,c,2,1,d,3,0,e,2,1,f,3,0,g,2,1,h,3,0,i,2,1,j,3,0,k,2,1,l,3,0,m,2,1,n,3,0,o,2,1,p,3,0,q,2,1,r,3,0"
     ],
     "timeStamps": [
+        "-g5t7pp",
         "8ao6p7",
         "8jvd8n",
         "97j08v",
@@ -37,6 +38,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "1vvvvvv"
     ],
     "offsets": [
+        -640,
         -630,
         -570,
         -600

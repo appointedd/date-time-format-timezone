@@ -8,12 +8,12 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "Australia/Eucla||0,0,0,1,1,1,2,0,0,3,1,1,4,0,0,5,1,1,6,0,0,7,1,1,8,0,0,9,1,1,a,0,0,b,1,1,c,0,0,d,1,1,e,0,0,f,1,1,g,0,0,h,1,1,i,0,0"
     ],
     "timeStamps": [
-        "-1hr2huh",
-        "-1hk7jbt",
+        "-1hr2avd",
+        "-1hk7frd",
         "-qamerd",
-        "-q3h5nt",
+        "-q3h27d",
         "-pkh5vd",
-        "-p5hd7t",
+        "-p5h9nd",
         "4gvs8j",
         "4rc3gj",
         "d02m0j",

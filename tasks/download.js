@@ -51,7 +51,7 @@ function compile(grunt) {
 			'europe',
 			'northamerica',
 			'southamerica',
-			'pacificnew',
+			//'pacificnew',
 			'backward'
 		];
 

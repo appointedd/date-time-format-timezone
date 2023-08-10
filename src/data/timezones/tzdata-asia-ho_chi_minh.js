@@ -8,7 +8,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "Asia/Saigon,Asia/Ho_Chi_Minh||0,0,0,1,0,0,2,1,0,3,2,0,4,3,0,5,1,0,6,2,0,7,1,0,8,2,0,9,1,0"
     ],
     "timeStamps": [
-        "-1rn7f41",
+        "-1rn7f3n",
         "-1n5pl7n",
         "-pck6c1",
         "-naccch",

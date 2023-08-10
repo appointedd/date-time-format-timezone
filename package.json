@@ -1,6 +1,6 @@
 {
-  "name": "date-time-format-timezone",
-  "version": "1.0.22",
+  "name": "@appointedd/date-time-format-timezone",
+  "version": "1.1.00",
   "author": "Markandey Singh <markandeysingh@yahoo.com>",
   "contributors": [
     {
