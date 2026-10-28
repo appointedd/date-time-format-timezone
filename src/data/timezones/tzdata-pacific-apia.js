@@ -5,9 +5,10 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Pacific/Apia||0,0,0,1,1,0,2,2,0,3,3,1,4,2,0,5,3,1,6,4,1,7,5,0,8,4,1,9,5,0,a,4,1,b,5,0,c,4,1,d,5,0,e,4,1,f,5,0,g,4,1,h,5,0,i,4,1,j,5,0,k,4,1,l,5,0,m,4,1,n,5,0,o,4,1,p,5,0"
+        "Pacific/Apia||0,0,0,1,1,0,2,2,0,3,3,0,4,4,1,5,3,0,6,4,1,7,5,1,8,6,0,9,5,1,a,6,0,b,5,1,c,6,0,d,5,1,e,6,0,f,5,1,g,6,0,h,5,1,i,6,0,j,5,1,k,6,0,l,5,1,m,6,0,n,5,1,o,6,0,p,5,1,q,6,0"
     ],
     "timeStamps": [
+        "-28s4do1",
         "-1nfk101",
         "-ipruu9",
         "169u9tf",
@@ -33,9 +34,10 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "1f8h4mv",
         "1fmuiav",
         "1g6gt6v",
-        "1vvvvvv"
+        "1g6gt70"
     ],
     "offsets": [
+        753,
         -687,
         -690,
         -660,

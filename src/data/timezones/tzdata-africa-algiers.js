@@ -5,9 +5,10 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Africa/Algiers||0,0,0,1,1,0,2,2,1,3,1,0,4,2,1,5,1,0,6,2,1,7,1,0,8,2,1,9,1,0,a,2,1,b,1,0,c,2,1,d,1,0,e,2,1,f,1,0,g,2,0,h,3,1,i,2,0,j,3,1,k,2,0,l,1,0,m,2,0,n,1,0,o,2,1,p,1,0,q,2,1,r,2,0,s,3,1,t,2,0,u,1,0,v,2,1,10,1,0,11,2,0"
+        "Africa/Algiers||0,0,0,1,1,0,2,2,0,3,3,1,4,2,0,5,3,1,6,2,0,7,3,1,8,2,0,9,3,1,a,2,0,b,3,1,c,2,0,d,3,1,e,2,0,f,3,1,g,2,0,h,3,0,i,4,1,j,3,0,k,4,1,l,3,0,m,2,0,n,3,0,o,2,0,p,3,1,q,2,0,r,3,1,s,3,0,t,4,1,u,3,0,v,2,0,10,3,1,11,2,0,12,3,0"
     ],
     "timeStamps": [
+        "-2a3cp6t",
         "-1n9vbti",
         "-1ibh1oh",
         "-1i2hksh",
@@ -41,9 +42,10 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "9mcgjv",
         "a5uv0f",
         "akunnv",
-        "1vvvvvv"
+        "akuno0"
     ],
     "offsets": [
+        12,
         9,
         0,
         60,

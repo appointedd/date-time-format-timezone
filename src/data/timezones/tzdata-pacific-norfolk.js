@@ -5,9 +5,10 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Pacific/Norfolk||0,0,0,1,1,0,2,2,1,3,1,0,4,3,0,5,4,1,6,3,0,7,4,1,8,3,0,9,4,1,a,3,0,b,4,1,c,3,0,d,4,1,e,3,0,f,4,1,g,3,0,h,4,1,i,3,0,j,4,1,k,3,0,l,4,1,m,3,0,n,4,1,o,3,0,p,4,1,q,3,0,r,4,1,s,3,0,t,4,1,u,3,0,v,4,1,10,3,0,11,4,1,12,3,0,13,4,1,14,3,0,15,4,1,16,3,0,17,4,1,18,3,0,19,4,1"
+        "Pacific/Norfolk||0,0,0,1,1,0,2,2,0,3,3,1,4,2,0,5,4,0,6,5,1,7,4,0,8,5,1,9,4,0,a,5,1,b,4,0,c,5,1,d,4,0,e,5,1,f,4,0,g,5,1,h,4,0,i,5,1,j,4,0,k,5,1,l,4,0,m,5,1,n,4,0,o,5,1,p,4,0,q,5,1,r,4,0,s,5,1,t,4,0,u,5,1,v,4,0,10,5,1,11,4,0,12,5,1,13,4,0,14,5,1,15,4,0,16,5,1,17,4,0,18,5,1,19,4,0,1a,5,1"
     ],
     "timeStamps": [
+        "-20sjq3p",
         "-hrs1s1",
         "4gvij7",
         "4rbpr7",
@@ -49,9 +50,10 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "1up4obf",
         "1v84kjf",
         "1vn4grf",
-        "1vvvvvv"
+        "1vn4grg"
     ],
     "offsets": [
+        671,
         672,
         690,
         750,

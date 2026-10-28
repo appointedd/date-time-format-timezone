@@ -14,10 +14,10 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "-naccch",
         "-ms9g8h",
         "-lcqh7h",
-        "-dki6s1",
+        "-dki3bh",
         "-9d0q01",
         "53rhnv",
-        "1vvvvvv"
+        "53rho0"
     ],
     "offsets": [
         426,

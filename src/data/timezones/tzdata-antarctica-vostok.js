@@ -5,14 +5,18 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Asia/Kashgar,Asia/Urumqi,Antarctica/Vostok||0,0,0,1,1,0"
+        "Antarctica/Vostok||0,0,0,1,1,0,2,0,0,3,1,0,4,2,0"
     ],
     "timeStamps": [
-        "-17g2hct",
-        "1vvvvvv"
+        "-baetk1",
+        "mkqe8f",
+        "nbb17v",
+        "1inuh9f",
+        "1inuh9g"
     ],
     "offsets": [
-        350,
-        360
+        0,
+        420,
+        300
     ]
 });};

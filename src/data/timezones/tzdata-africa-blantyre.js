@@ -8,8 +8,8 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "Africa/Bujumbura,Africa/Gaborone,Africa/Harare,Africa/Kigali,Africa/Lubumbashi,Africa/Lusaka,Africa/Maputo,Africa/Blantyre||0,0,0,1,1,0"
     ],
     "timeStamps": [
-        "-1uriegd",
-        "1vvvvvv"
+        "-1pbqakb",
+        "-1pbqaka"
     ],
     "offsets": [
         130,

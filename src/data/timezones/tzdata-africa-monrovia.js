@@ -5,12 +5,13 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Africa/Monrovia||0,0,0,1,1,0,2,2,0"
+        "Africa/Monrovia||0,0,0,1,0,0,2,1,0,3,2,0"
     ],
     "timeStamps": [
+        "-2ioamb5",
         "-1fq14r5",
         "1skmjd",
-        "1vvvvvv"
+        "1skmje"
     ],
     "offsets": [
         -44,

@@ -8,25 +8,28 @@
 /* eslint-env node */
 /* global  Promise */
 
-const path = require('path'),
-	exec = require('child_process').exec,
-	Utill = require('./utill/utill.js'),
-	TimeZoneDataUtil = require('./utill/timezone-data-utill.js'),
-	LocaleDataUtil = require('./utill/locale-data-utill.js'),
-	src = 'ftp://ftp.iana.org/tz/tzdata-latest.tar.gz',
-	ts = '1479946288072', // + Date.now(),
-	tsBase = path.resolve('temp', ts),
-	getDir = function(name) {
-		return path.resolve(tsBase, name);
-	},
-	tarDir = path.resolve(getDir('tarDir'), 'data.tar.gz'),
-	extractDir = getDir('extractDir'),
-	dataDir = path.resolve('src/data'),
-	zicDir = getDir('zicDir'),
-	zdumpBase = getDir('zdump'),
-	cldrDatesFullDir = path.resolve('node_modules/cldr-dates-full/main'),
-	metaZonesFile = path.resolve('node_modules/cldr-core/supplemental/metaZones.json'),
-	zdumpLinePattern = /([a-z]{3}\s+?[a-z]{3}\s+?[0-9]{1,2}\s+?[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}\s+?[0-9]{0,4}\s+UTC)\s+=\s+([a-z]{3}\s+?[a-z]{3}\s+?[0-9]{1,2}\s+?[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}\s+?[0-9]{0,4})\s+([a-z0-9+\-]{3,7})\s+isdst=([01])/i;
+const path = require("path"),
+  exec = require("child_process").exec,
+  Utill = require("./utill/utill.js"),
+  TimeZoneDataUtil = require("./utill/timezone-data-utill.js"),
+  LocaleDataUtil = require("./utill/locale-data-utill.js"),
+  src = "ftp://ftp.iana.org/tz/tzdata-latest.tar.gz",
+  ts = "1479946288072", // + Date.now(),
+  tsBase = path.resolve("temp", ts),
+  getDir = function (name) {
+    return path.resolve(tsBase, name);
+  },
+  tarDir = path.resolve(getDir("tarDir"), "data.tar.gz"),
+  extractDir = getDir("extractDir"),
+  dataDir = path.resolve("src/data"),
+  zicDir = getDir("zicDir"),
+  zdumpBase = getDir("zdump"),
+  cldrDatesFullDir = path.resolve("node_modules/cldr-dates-full/main"),
+  metaZonesFile = path.resolve(
+    "node_modules/cldr-core/supplemental/metaZones.json",
+  ),
+  zdumpLinePattern =
+    /([a-z]{3}\s+?[a-z]{3}\s+?[0-9]{1,2}\s+?[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}\s+?[0-9]{0,4}\s+UTC?)\s+=\s+([a-z]{3}\s+?[a-z]{3}\s+?[0-9]{1,2}\s+?[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}\s+?[0-9]{0,4})\s+([a-z0-9+\-]{3,7})\s+isdst=([01])/i;
 
 function download(grunt) {
 	return new Promise(resolve => {
@@ -97,7 +100,7 @@ function zdump(grunt) {
 				src = path.join(zicDir, file),
 				dest = path.join(zdumpBase, file);
 
-			exec('zdump -v ' + src, {
+			exec('zdump -v -c 2038 ' + src, {
 				maxBuffer: 20 * 1024 * 1024
 			}, (err, stdout) => {
 				if (err) {
@@ -129,9 +132,26 @@ function generateTimeZoneData(grunt) {
 			const lines = grunt.file.read(path.join(zdumpBase, file)).split('\n'),
 				name = file.replace(/\.zdump$/, '');
 
-			let histories = [];
+			let histories = [],
+				closing = null;
 
 			lines.forEach(line => {
+				// extreme-range lines (year beyond 4 digits, or "failed"): not transitions,
+				// but they carry the final offset, which fixed-offset zones need.
+				if (/\((gmtime|localtime) failed\)|\s-?\d{5,}\s+UTC?\s+=/.test(line)) {
+					const closingMatch = line.match(/\s(\S+)\s+isdst=([01])\s+gmtoff=(-?\d+)\s*$/);
+
+					if (closingMatch) {
+						closing = {
+							offset: Math.floor(closingMatch[3] / 60),
+							until: 2147483647,
+							abbr: closingMatch[1],
+							isdst: closingMatch[2] * 1
+						};
+					}
+					return;
+				}
+
 				const match = line.match(zdumpLinePattern),
 					utcString = match && match[1],
 					localString = match && match[2] + ' UTC',
@@ -162,6 +182,10 @@ function generateTimeZoneData(grunt) {
 					isdst: (isdst * 1)
 				});
 			});
+
+			if (!histories.length && closing) {
+				histories.push(closing);
+			}
 
 			// remove untills which extends up to next untill
 			histories = histories.filter((history, index) => {

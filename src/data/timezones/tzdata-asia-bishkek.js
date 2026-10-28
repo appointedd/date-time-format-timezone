@@ -58,7 +58,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "106bsin",
         "10o7ue7",
         "114bl2n",
-        "1vvvvvv"
+        "11fn4h0"
     ],
     "offsets": [
         298,

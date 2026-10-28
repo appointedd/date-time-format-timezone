@@ -5,7 +5,7 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Antarctica/Casey||0,0,0,1,1,0,2,2,0,3,1,0,4,2,0,5,1,0,6,2,0,7,1,0,8,2,0,9,1,0,a,2,0,b,1,0,c,2,0"
+        "Antarctica/Casey||0,0,0,1,1,0,2,2,0,3,1,0,4,2,0,5,1,0,6,2,0,7,1,0,8,2,0,9,1,0,a,2,0,b,1,0,c,2,0,d,1,0,e,2,0,f,1,0,g,2,0,h,1,0"
     ],
     "timeStamps": [
         "-u2cs1",
@@ -20,7 +20,12 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "1epch9f",
         "1f67h7v",
         "1fnh81r",
-        "1vvvvvv"
+        "1g4pdqf",
+        "1glh0hr",
+        "1h2p6af",
+        "1hjgp1r",
+        "1i0hc7v",
+        "1i0hc80"
     ],
     "offsets": [
         0,

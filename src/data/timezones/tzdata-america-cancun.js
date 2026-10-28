@@ -5,15 +5,16 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "America/Cancun||0,0,0,1,1,0,2,2,0,3,3,1,4,2,0,5,3,1,6,2,0,7,3,1,8,2,1,9,1,0,a,2,1,b,1,0,c,2,1,d,1,0,e,2,1,f,1,0,g,2,1,h,1,0,i,2,1,j,1,0,k,2,1,l,1,0,m,2,1,n,1,0,o,2,1,p,1,0,q,2,1,r,1,0,s,2,1,t,1,0,u,2,1,v,1,0,10,2,1,11,1,0,12,2,1,13,1,0,14,2,1,15,1,0,16,2,1,17,1,0,18,2,1,19,1,0,1a,2,0"
+        "America/Cancun||0,0,0,1,1,0,2,2,0,3,1,0,4,2,1,5,1,0,6,2,1,7,2,0,8,3,1,9,2,1,a,1,0,b,2,1,c,1,0,d,2,1,e,1,0,f,2,1,g,1,0,h,2,1,i,1,0,j,2,1,k,1,0,l,2,1,m,1,0,n,2,1,o,1,0,p,2,1,q,1,0,r,2,1,s,1,0,t,2,1,u,1,0,v,2,1,10,1,0,11,2,1,12,1,0,13,2,1,14,1,0,15,2,1,16,1,0,17,2,1,18,1,0,19,2,1,1a,1,0,1b,2,0"
     ],
     "timeStamps": [
         "-1d4i9d1",
-        "b8dlav",
-        "omepvf",
-        "p75uiv",
-        "pkeiff",
-        "q55n2v",
+        "b8lpfv",
+        "c7fj6f",
+        "ometfv",
+        "p7623f",
+        "pkelvv",
+        "q55qjf",
         "qieavf",
         "qs802v",
         "r35j3f",
@@ -50,7 +51,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "19k22bv",
         "1a4p6vf",
         "1acrn7v",
-        "1vvvvvv"
+        "1acrn80"
     ],
     "offsets": [
         -348,
