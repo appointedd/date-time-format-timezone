@@ -5,9 +5,10 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Africa/Tunis||0,0,0,1,1,0,2,2,1,3,1,0,4,2,1,5,1,0,6,2,1,7,1,0,8,2,1,9,1,0,a,2,1,b,1,0,c,2,1,d,1,0,e,2,1,f,1,0,g,2,1,h,1,0,i,2,1,j,1,0,k,2,1,l,1,0,m,2,1,n,1,0,o,2,1,p,1,0,q,2,1,r,1,0,s,2,1,t,1,0,u,2,1,v,1,0,10,2,1,11,1,0"
+        "Africa/Tunis||0,0,0,1,1,0,2,2,0,3,3,1,4,2,0,5,3,1,6,2,0,7,3,1,8,2,0,9,3,1,a,2,0,b,3,1,c,2,0,d,3,1,e,2,0,f,3,1,g,2,0,h,3,1,i,2,0,j,3,1,k,2,0,l,3,1,m,2,0,n,3,1,o,2,0,p,3,1,q,2,0,r,3,1,s,2,0,t,3,1,u,2,0,v,3,1,10,2,0,11,3,1,12,2,0"
     ],
     "timeStamps": [
+        "-2jbjr0d",
         "-1n9vbti",
         "-ssatp1",
         "-saeod1",
@@ -41,9 +42,10 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "13i7nof",
         "13utpgf",
         "14g7g8f",
-        "1vvvvvv"
+        "14g7g8g"
     ],
     "offsets": [
+        40,
         9,
         60,
         120

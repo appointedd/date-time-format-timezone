@@ -24,9 +24,9 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "-5mg02h",
         "-5fl8f1",
         "-4jv6uh",
-        "-4f3ob1",
+        "-4f13v1",
         "-3qtkuh",
-        "-3jgen1",
+        "-3jgb6h",
         "-2vabah",
         "-2le1r1",
         "-217ueh",
@@ -49,7 +49,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "sv4igv",
         "tshvtf",
         "u6u3kv",
-        "1vvvvvv"
+        "u6u3l0"
     ],
     "offsets": [
         -143,

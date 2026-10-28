@@ -8,11 +8,11 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "Asia/Dili||0,0,0,1,1,0,2,2,0,3,1,0,4,2,0"
     ],
     "timeStamps": [
-        "-1mhjppt",
+        "-1mhjog1",
         "-q6dj8h",
         "5ukc3f",
         "ss767v",
-        "1vvvvvv"
+        "ss7680"
     ],
     "offsets": [
         502,

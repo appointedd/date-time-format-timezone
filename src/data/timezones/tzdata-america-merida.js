@@ -9,8 +9,8 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
     ],
     "timeStamps": [
         "-1d4i9d1",
-        "b8dlav",
-        "c4oiqf",
+        "b8lpfv",
+        "c29mjf",
         "ometfv",
         "p7623f",
         "pkelvv",
@@ -65,7 +65,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "1gnsfnf",
         "1h4ikvv",
         "1hls87f",
-        "1vvvvvv"
+        "1hls87g"
     ],
     "offsets": [
         -359,

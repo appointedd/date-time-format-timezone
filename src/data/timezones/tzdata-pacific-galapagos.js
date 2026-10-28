@@ -12,7 +12,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "f1hh2f",
         "lhe2mv",
         "ln3t2f",
-        "1vvvvvv"
+        "ln3t2g"
     ],
     "offsets": [
         -359,

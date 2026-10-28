@@ -5,13 +5,15 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Asia/Kabul||0,0,0,1,1,0"
+        "Asia/Kabul||0,0,0,1,1,0,2,2,0"
     ],
     "timeStamps": [
+        "-2b7ipb1",
         "-ngca61",
-        "1vvvvvv"
+        "-ngca60"
     ],
     "offsets": [
+        276,
         240,
         270
     ]

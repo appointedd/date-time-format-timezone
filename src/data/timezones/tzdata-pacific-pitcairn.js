@@ -5,13 +5,15 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Pacific/Pitcairn||0,0,0,1,1,0"
+        "Pacific/Pitcairn||0,0,0,1,1,0,2,2,0"
     ],
     "timeStamps": [
+        "-20shk8d",
         "qk8gg7",
-        "1vvvvvv"
+        "qk8gg8"
     ],
     "offsets": [
+        -521,
         -510,
         -480
     ]

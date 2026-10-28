@@ -5,15 +5,17 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "America/Guayaquil||0,0,0,1,1,0,2,2,1,3,1,0"
+        "America/Guayaquil||0,0,0,1,1,0,2,2,0,3,3,1,4,2,0"
     ],
     "timeStamps": [
+        "-2b7hmd9",
         "-14lnff9",
         "lhdv6f",
         "ln3phv",
-        "1vvvvvv"
+        "ln3pi0"
     ],
     "offsets": [
+        -320,
         -314,
         -300,
         -240

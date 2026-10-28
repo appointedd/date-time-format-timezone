@@ -5,9 +5,10 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Asia/Chungking,Asia/Harbin,Asia/Shanghai,PRC,Asia/Chongqing||0,0,0,1,1,1,2,0,0,3,1,1,4,0,0,5,1,1,6,0,0,7,1,1,8,0,0,9,1,1,a,0,0,b,1,1,c,0,0,d,1,1,e,0,0,f,1,1,g,0,0,h,1,1,i,0,0,j,1,1,k,0,0,l,1,1,m,0,0,n,1,1,o,0,0,p,1,1,q,0,0,r,1,1,s,0,0"
+        "Asia/Chungking,Asia/Harbin,Asia/Shanghai,PRC,Asia/Chongqing||0,0,0,1,1,0,2,2,1,3,1,0,4,2,1,5,1,0,6,2,1,7,1,0,8,2,1,9,1,0,a,2,1,b,1,0,c,2,1,d,1,0,e,2,1,f,1,0,g,2,1,h,1,0,i,2,1,j,1,0,k,2,1,l,1,0,m,2,1,n,1,0,o,2,1,p,1,0,q,2,1,r,1,0,s,2,1,t,1,0"
     ],
     "timeStamps": [
+        "-20sjf6o",
         "-1fmgnc1",
         "-1f8duoh",
         "-rqd8c1",
@@ -36,9 +37,10 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "jf4ngf",
         "k0ehov",
         "kd4g0f",
-        "1vvvvvv"
+        "kd4g0g"
     ],
     "offsets": [
+        485,
         480,
         540
     ]

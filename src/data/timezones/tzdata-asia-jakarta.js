@@ -5,9 +5,10 @@
  */
 module.exports = function load(global) {global.Intl && global.Intl._timeZoneData && global.Intl._timeZoneData.load({
     "zoneDefs": [
-        "Asia/Jakarta||0,0,0,1,1,0,2,2,0,3,3,0,4,2,0,5,4,0,6,2,0,7,5,0"
+        "Asia/Jakarta||0,0,0,1,0,0,2,1,0,3,2,0,4,3,0,5,2,0,6,4,0,7,2,0,8,5,0"
     ],
     "timeStamps": [
+        "-309jdl1",
         "-1b8euh1",
         "-12ui8d1",
         "-q40v3p",
@@ -15,7 +16,7 @@ module.exports = function load(global) {global.Intl && global.Intl._timeZoneData
         "-kc6efp",
         "-ig1mg1",
         "-5kkgbp",
-        "1vvvvvv"
+        "-5kkgbo"
     ],
     "offsets": [
         427,
